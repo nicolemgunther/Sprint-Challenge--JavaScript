@@ -1,10 +1,8 @@
-// 1. Copy and paste your prototype in here and refactor into class syntax.
-
 /* == Step 1: Base Constructor ==
     Create a constructor function named CuboidMaker that accepts properties for length, width, and height
 */
 
-class CuboidMaker{
+class CuboidMakerClass{
     constructor(cuboid){
     this.length = cuboid.length;
     this.width = cuboid.width;
@@ -25,7 +23,7 @@ class CuboidMaker{
     Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
   */
 
-const cuboid = new CuboidMaker({
+const cuboidObj = new CuboidMakerClass({
     length: 4,
     width: 5,
     height: 5
