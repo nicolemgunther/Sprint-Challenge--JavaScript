@@ -38,11 +38,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What is closure?
 
-    Closure is simply the act of reaching out of scope to grab a variable. It is basically access to parent scopes. You can reach out of a scope but can't reach into another one.
+    Closure is simply the act of reaching out of scope to grab a variable. It is basically the ability to access parent scopes. You can reach out of a scope but can't reach into another one.
 
 4. Describe the four rules of the 'this' keyword.
 
-    Window/Global Object Binding: "this" refers to the entire console/window object. It would include essentially, the entirety of JavaScript. Console logging "this" in this case is very long.
+    Window/Global Object Binding: "this" refers to the entire console/window object. It would include, essentially, the entirety of JavaScript. Console logging "this" in this case is very long.
 
     Implicit Binding: "this" refers to the object that precedes a dot calling a function.
 
@@ -52,7 +52,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
-    We need super() because it gives the child class the ability to inherit the attributes of the parent class it extends from. It essentially does the same thing as the .call syntax that is done in constructor function/prototype syntax.
+    We need super() because it gives a child class the ability to inherit the attributes of the parent class it extends from. It essentially does the same thing as the .call syntax that is done in constructor function/prototype syntax.
 
 
 ## Project Set up
@@ -72,7 +72,7 @@ Follow these steps for completing your project:
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
 
 ## Minimum Viable Product
